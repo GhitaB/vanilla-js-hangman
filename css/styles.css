@@ -1,0 +1,43 @@
+/* https://coolors.co/2274a5-e7eb90-fadf63-e6af2e-632b30 */
+/* #2274a5 #e7eb90 #fadf63 #e6af2e #632b30 */
+
+body {
+  background: white;
+}
+
+div.container {
+  background: #e7eb90;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 3px solid #e6af2e;
+  border-radius: 10px;
+  min-height: 500px;
+  max-width: 500px;
+}
+
+div.game-board {
+  background: #fadf63;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  color: #632b30;
+  font-size: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #2274a5;
+  color: white;
+}
+
+h1#word {
+  letter-spacing: 10px;
+}
